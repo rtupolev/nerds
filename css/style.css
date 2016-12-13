@@ -44,6 +44,13 @@ a.btn:active{
 .btn:hover{
   background-color: #d6494d;
 }
+button.btn{
+  cursor: pointer;
+}
+button.btn:active{
+  background-color: #b63538;
+  box-shadow: inset 0px 1px 5px 5px rgba(48, 50, 50, 0.23);
+}
 /*Header*/
 .main-header{
   margin: 0;
